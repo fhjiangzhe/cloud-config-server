@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: olymtech-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:fhjiangzhe/cloud-config-repo.git
+          clone-on-start: true
+
