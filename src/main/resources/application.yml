@@ -9,5 +9,4 @@ spring:
       server:
         git:
           uri: git@github.com:fhjiangzhe/cloud-config-repo.git
-          clone-on-start: true
 
